@@ -19,26 +19,26 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Material for MkDocs Insiders
-site_url: https://squidfunk.github.io/mkdocs-material-insiders/
-site_author: Martin Donath
+site_name: Hi, Rye Bread
+site_url: https://www.hiryebread.com/
+site_author: Rye Bread
 site_description: >-
   Create a branded static site from a set of Markdown files to host the
   documentation of your Open Source or commercial project – customizable,
   searchable, mobile-friendly, 40+ languages
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: hiryebread/mkdocs-blog
+repo_url: https://github.com/hiryebread/mkdocs-blog
 edit_uri: ""
 
 # Copyright
-copyright: Copyright &copy; 2016 - 2021 Martin Donath
+copyright: Copyright &copy; 2016 - 2021 Rye Bread
 
 # Configuration
 theme:
-  name: null
-  custom_dir: material
+  name: material
+  custom_dir: overrides
 
   # Static content
   static_templates:
@@ -49,7 +49,7 @@ theme:
   search_index_only: true
 
   # Default values, taken from mkdocs_theme.yml
-  language: en
+  language: zh
   features:
     # - header.autohide
     # - navigation.expand
@@ -107,17 +107,17 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/squidfunk
+      link: https://github.com/hiryebread
     - icon: fontawesome/brands/gitter
-      link: https://gitter.im/squidfunk/mkdocs-material
+      link: https://gitter.im/hiryebread/mkdocs-blog
     - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
+      link: https://hub.docker.com/r/hiryebread/mkdocs-blog/
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
+      link: https://twitter.com/hiryebread
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/squidfunk/
+      link: https://linkedin.com/in/hiryebread/
     - icon: fontawesome/brands/instagram
-      link: https://instagram.com/squidfunk
+      link: https://instagram.com/hiryebread
 
 # Extensions
 markdown_extensions:
