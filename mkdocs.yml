@@ -28,8 +28,8 @@ site_description: >-
   searchable, mobile-friendly, 40+ languages
 
 # Repository
-repo_name: hiryebread/mkdocs-blog
-repo_url: https://github.com/hiryebread/mkdocs-blog
+repo_name: ryebread-notebook
+repo_url: https://github.com/theryebread/ryebread-notebook
 edit_uri: ""
 
 # Copyright
@@ -207,6 +207,6 @@ nav:
       - Deprecations: deprecations.md
 
 # Google Analytics
-google_analytics:
-  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
-  - auto
+# google_analytics:
+#   - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+#   - auto
